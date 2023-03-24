@@ -55,3 +55,9 @@ COPY Category FROM  'C:\Users\Allison\Desktop\category.csv' WITH delimiter ','  
 COPY Campaign FROM  'C:\Users\Allison\Downloads\Crowdfunding_ETL\Resources\campaign.csv' WITH delimiter ','  CSV HEADER;
 COPY Contacts FROM  'C:\Users\Allison\Downloads\Crowdfunding_ETL\Resources\contacts.csv' WITH delimiter ','  CSV HEADER;
 COPY Subcategory FROM  'C:\Users\Allison\Downloads\Crowdfunding_ETL\Resources\subcategory.csv' WITH delimiter ','  CSV HEADER;
+
+select * from Contacts;
+select * from Category;
+select * from Subcategory;
+select * from Campaign;
+
